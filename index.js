@@ -10,7 +10,7 @@ server.use(express.json());
 
 server.use("/api/cars", carsRouter);
 
-server.use("/api/aa", (req, res) => {
+server.use("/api/test", (req, res) => {
 	console.log("hey works!");
 	res.json({ message: "works" });
 });
